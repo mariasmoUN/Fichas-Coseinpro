@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto resumen - Coseinpro</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Resumen información de propiedades</h1>
+
+        <div class="general_text-container">
+            <span>Texto de la línea de excel</span>
+            <textarea name="Texto" id="general_text"></textarea>
+            <button class="resumen" onclick="resumir()">Resumir</button>
+        </div>
+
+        <div class="final_text-container">
+            <span>Texto Resumido</span>
+            <textarea name="Resumen" id="resumen_text"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+        
+    <script src="./script.js"></script>
+</body>
+</html>
